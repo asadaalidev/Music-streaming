@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <header>
+    <div class="menu_side">
+        <h1>ASHTRAY</h1>
+        <div class="playlist">
+            <h4 class="active"><span></span><i class="bi bi-music-note-beamed "></i>Playlist</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed "></i>Last Played</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed "></i>Recommendation</h4>
+        </div>
+        <div class="menu_song">
+            <li class="songItem">
+                <span>01</span>
+                <img src="Img/Travis Scott - Utopia.png" alt="travis">
+                <h5>
+                    SKITZO
+                    <div class="subtitle">Travis Scott</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="Skitzo" data-audio="Skitzo.mp3"></i>
+                
+            </li>
+            <li class="songItem">
+                <span>02</span>
+                <img src="Img/Post-Malone.png" alt="post">
+                <h5>
+                   PSYCHO
+                    <div class="subtitle">Post Malone</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="Psycho" data-audio="Psycho.mp3"></i>
+               
+            </li>
+            <li class="songItem">
+                <span>03</span>
+                <img src="Img/The_Weeknd.png" alt="weeknd">
+                <h5>
+                    AFTER HOURS
+                    <div class="subtitle">THE WEEKND</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="After" data-audio="Afterhours.mp3"></i>
+                
+            </li>
+            <li class="songItem">
+                <span>04</span>
+                <img src="Img/kanye west.jpg" alt="kanye">
+                <h5>
+                    STRONGER
+                    <div class="subtitle">Kanye West</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="stronger" data-audio="Stronger.mp3"></i>
+               
+            </li>
+            
+            <li class="songItem">
+                <span>05</span>
+                <img src="Img/jcole.jpg" alt="cole">
+                <h5>
+                    APPARENTLY
+                    <div class="subtitle">J.COLE</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="apparently" data-audio="Apparently.mp3"></i>
+                
+            </li>
+            
+            <li class="songItem">
+                <span>06</span>
+                <img src="Img/young thug.png" alt="thugger">
+                <h5>
+                    LIL BABY
+                    <div class="subtitle">YOUNG THUG</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                
+            </li>
+            
+            
+        </div>
+    </div>
+    <div class="song_side">
+        <nav>
+            <ul>
+                <li>DISCOVER <span></span></li>
+                <li>MY LIBRARY</li>
+                <li>RADIO</li>
+            </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Explore Music">
+                </div>
+                <div class="user">
+                    <img src="Img/photo11.png" title="Asadprofile" id="profilepic">
+                </div>
+            
+        </nav>
+        <div class="content">
+            <h1>Kanye West-Heartless</h1>
+            <p>
+                In the night I hear 'em talk
+                The coldest story ever told<br>
+                Somewhere far along this road
+                He lost his soul to a woman so heartless
+            </p>
+            <div class="bg">
+                <img src="Img/Kanye-removebg-preview.png" class="bgimg">
+            </div>
+            <div class="buttons">
+              <button>PLAY</button>  
+              <button>FOLLOW</button>  
+            </div>
+        </div>
+        <div class="popular_song">
+            <div class="h4">
+                <h4>Songs To Grove</h4>
+                <div class="btn_s">
+                    <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="rap_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/rockstar.jpg" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a7" ></i>
+                    </div>
+                    <h5>Rockstar
+                        <br>
+                        <div class="subtitle">Post Malone</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/Carnivalsong.png" id="rockimg" ">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a8"></i>
+                    </div>
+                    <h5>Carnival
+                        <br>
+                        <div class="subtitle">Ye & TY $</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/blindingsong.png" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a9"></i>
+                    </div>
+                    <h5>Blinding Lights
+                        <br>
+                        <div class="subtitle">The Weeknd</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/Middle_Childsong.png" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a10"></i>
+                    </div>
+                    <h5>Middle Child
+                        <br>
+                        <div class="subtitle">J Cole</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/relationshipsong.jpg" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a11"></i>
+                    </div>
+                    <h5>Relationship
+                        <br>
+                        <div class="subtitle">Young thug ft.Future</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/whofoolinsong.jpg" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a12"></i>
+                    </div>
+                    <h5>Who You Foolin
+                        <br>
+                        <div class="subtitle">Gunna</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/brownrangsong.png" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a13"></i>
+                    </div>
+                    <h5>Brown Rang 
+                        <br>
+                        <div class="subtitle">Honey Singh</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/rockstar.jpg" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a14"></i>
+                    </div>
+                    <h5>Rockstar
+                        <br>
+                        <div class="subtitle">Post Malone</div>
+                    </h5>
+                </li>    
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Img/rockstar.jpg" id="rockimg">
+                        <i class="bi playListPlay bi-play-circle-fill" id="a15"></i>
+                    </div>
+                    <h5>Rockstar
+                        <br>
+                        <div class="subtitle">Post Malone</div>
+                    </h5>
+                </li> 
+                </div>
+        </div>   
+                <div class="popular_artist">
+                    <div class="h4">
+                        <h4>POPULAR ARTIST</h4>
+                        <div class="btn_s">
+                            <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+
+                    <div class="Item">
+                        <li>
+                            <img src="Img/postyartist.png" alt="post" title="Post Malone">
+                        </li>
+                        <li>
+                            <img src="Img/travis.jpg" alt="travis" title="Travis Scott">
+                        </li>
+                        <li>
+                            <img src="Img/kanyeartist.webp" alt="Ye" title="Ye">
+                        </li>
+                        <li>
+                            <img src="Img/futureartist.jpg" alt="Future" title="Future">
+                        </li>
+                        <li>
+                            <img src="Img/weekndartist.webp" alt="The Weeknd" title="The Weeknd">
+                        </li>
+                        <li>
+                            <img src="Img/lilbabyartist.png" alt="lilbaby" title="Lil Baby">
+                        </li>
+                        <li>
+                            <img src="Img/eminemartist.webp" alt="post" title="Eminem">
+                        </li>
+                        <li>
+                            <img src="Img/gunnartist.jpg" alt="post" title="Gunna">
+                        </li>
+                        <li>
+                            <img src="Img/thuggerartist.jpg" alt="post" title="Young Thug">
+                        </li>
+                        <li>
+                            <img src="Img/kendrickartist.jpg" alt="post" title="Kendrick Lamar">
+                        </li>
+                        <li>
+                            <img src="Img/jcole.jpg" alt="post" title="J Cole">
+                        </li>
+                    </div>
+            </div>
+       
+
+    </div>
+
+  
+
+
+    <div class="master_play">
+
+    <div class="wave">
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+    </div>
+
+    <img src="Img/Travis Scott - Utopia.png" alt="">
+    <h5>
+        SKITZO <br>
+        <div class="subtitle">Travis Scott</div>
+        
+    </h5>
+    <div class="icon">
+        <i class="bi bi-skip-start-fill" id="back"></i>
+        <i class="bi bi-play-fill" id="masterPlay"></i>
+        <i class="bi bi-skip-end-fill" id="next"></i>
+    </div>
+    <span id="currentStart">0:00</span>
+    <div class="bar">
+        <input type="range" id="seek" min="0" value="0" max="100">
+        <div class="bar2" id="bar2"></div>
+        <div class="dot"></div>
+    </div>
+    <span id="currentend">0:00</span>
+
+    <div class="vol">
+        <i class="bi bi-volume-down-fill"></i>
+        <input type="range" id="vol" min="0" value="30" max="100">
+        <div class="vol_bar" ></div>
+        <div class="dot" id="vol_dot"></div>
+    </div>
+    
+     </div>
+ </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
