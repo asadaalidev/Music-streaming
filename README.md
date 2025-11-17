@@ -1,2 +1,2 @@
 # Music-streaming
-This the music streaming website.
+This is the music streaming website.
